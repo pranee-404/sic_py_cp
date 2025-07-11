@@ -61,5 +61,4 @@ def read_all_employees():
 
 connection = connectDb()
 read_all_employees()
-
 #connection.close()

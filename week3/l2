@@ -1,0 +1,6 @@
+import re
+
+emails = ["alice@gmail.com", "bob@yahoo.com", "user@outlook.com"]
+
+domains = list(map(lambda s: re.search(r'@(\w+)', s).group(0), emails))
+print(domains) 
