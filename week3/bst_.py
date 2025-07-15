@@ -66,6 +66,9 @@ class BST:
         if temp == None:
             return
     
+    def tree_height(self, elements):
+        elements = int(input('no of elements: '))
+        
 
 class Menu:
     def __init__(self):
@@ -119,6 +122,5 @@ class Menu:
             if self.choice == 0:
                 print('Application closed')
                 break
-                
 menu = Menu()
 menu.start_app()
